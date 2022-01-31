@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: black;
+}
+
+header {
+  background-color: #20404d;
+}
+
+header h1 {
+  width: 100%;
+  height: 25%;
+  background-color: black;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+header img {
+  border-radius: 10px;
+  background-image: url(../img/escenario.jpg);
+  width: 45%;
+  margin-left: 410px;
+}
+@media screen and (max-width:580px){
+  header img {
+    border-radius: 10px;
+    background-image: url(../img/escenario.jpg);
+    width: 60%;
+    margin-left: 150px;
+  }
+}
+header .Navegacion{
+  width: 100%;
+  background-color: white;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+section {
+  background-color: black;
+}
+
+section h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+section table {
+  background-color: #20404d; ;
+  border: solid 1px white;
+  margin-left: 320px;
+}
+
+@media screen and (max-width:800px){
+  section table {
+    background-color: #20404d; ;
+    border: solid 1px white;
+    margin-left: 80px;
+  }
+}
+section th {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: solid 1px black;
+  font-size: 20px;
+  background-color: bg_light;
+  color: #f3d3d3;
+}
+
+section a {
+  padding: 2px;
+  width: 100%;
+  font-size: 17px;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #20404d;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*# sourceMappingURL=estilo.css.map */
